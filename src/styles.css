@@ -4,6 +4,9 @@
 }
 
 #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 99vh;
   font-family: 'Lato';
 }
@@ -19,12 +22,23 @@
 }
 
 #main {
-  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
   height: 83vh;
   margin: 1rem;
   border: 1px rgb(202, 202, 202) solid;
   border-radius: 3px;
   background-color: antiquewhite;
+}
+
+#menu {
+  justify-content: center;
+  margin: 2rem 8rem 2rem 8rem;
+  padding: 2rem;
+  height: 80%;
+  background-color: white;
 }
 
 .tab {
@@ -46,4 +60,9 @@
   margin: 2rem;
   background-color: white;
   font-size: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
 }
